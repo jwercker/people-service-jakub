@@ -1,7 +1,7 @@
 def project = 'people-service'
-def appName = 'people-service'
+def appName = 'people-service-jakub'
 def tenancy='emeaccoe'
-def ocir='fra.ocir.io'
+def ocir='lon.ocir.io'
 def imageTag = "${ocir}/${tenancy}/oracleimc/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
 pipeline { 
